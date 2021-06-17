@@ -5,9 +5,6 @@ pipeline {
             steps {
                 bat 'set'
             }
-            steps {
-                echo "Hello World!"
-            }
         }
     }
 }
