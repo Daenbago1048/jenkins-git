@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    parameters { choice(name: 'TypeOfProject', choices: ['maven', 'gradle'], description: '') }
+    parameters { choice(name: 'Type Of Project', choices: ['maven', 'gradle'], description: '') }
     stages {
         stage('Build') {
             steps {
